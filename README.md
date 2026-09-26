@@ -26,10 +26,3 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-Before deploying, verify the project with:
-
-```bash
-npm run lint
-npm run build
-```
