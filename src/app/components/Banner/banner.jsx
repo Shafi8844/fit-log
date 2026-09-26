@@ -1,6 +1,6 @@
 import BannerLogo from '../../../../public/banner.png'
 import Image from 'next/image'
-import { oswald } from '../sharedComponents/Navbar/navBar'
+import { oswald } from '@/app/fonts'
 import Link from 'next/link'
 const Banner = () => {
   return (
@@ -18,8 +18,8 @@ const Banner = () => {
             <span aria-hidden="true">↓</span> BROWSE WORKOUTS
           </Link>
         </div>
-        <div className="relative min-h-56 bg-[#171a21] sm:min-h-72 md:min-h-full">
-          <Image src={BannerLogo} alt="Athlete preparing for a strength workout" fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-cover object-center" />
+        <div className="relative aspect-[4/3] min-h-56 bg-(--bannerbg) sm:min-h-72 md:min-h-0">
+          <Image src={BannerLogo} alt="Athlete preparing for a strength workout" fill priority sizes="(max-width: 768px) 100vw, 45vw" className="object-contain p-5 sm:p-7" />
         </div>
       </div>
     </section>

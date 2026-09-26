@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { WorkoutType } from '@/app/types/workoutType'
 import Muscle from '@/app/components/workOutLibrary/muscle'
-import { oswald } from '@/app/components/sharedComponents/Navbar/navBar'
+import { oswald } from '@/app/fonts'
 import WorkoutChart from '@/app/components/workoutDetails/workoutChart'
 import TodaysPlanButton from '@/app/components/workoutDetails/todaysPlanButton'
 import SaveForLaterButton from '@/app/components/workoutDetails/saveForLaterButton'

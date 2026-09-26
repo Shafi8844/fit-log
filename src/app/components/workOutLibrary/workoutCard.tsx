@@ -1,7 +1,7 @@
 import { WorkoutType } from "@/app/types/workoutType"
 import Image from "next/image";
 import Muscle from "./muscle";
-import { oswald } from "../sharedComponents/Navbar/navBar";
+import { oswald } from "@/app/fonts";
 import Clock from '../../../../public/clock.png'
 import Burn from '../../../../public/burn.png'
 import Star from '../../../../public/star.png'

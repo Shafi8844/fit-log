@@ -1,5 +1,5 @@
 import { WorkoutType } from "@/app/types/workoutType";
-import { oswald } from "../sharedComponents/Navbar/navBar";
+import { oswald } from "@/app/fonts";
 import WorkoutCard from "./workoutCard";
 
 

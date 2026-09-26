@@ -1,4 +1,4 @@
-import { oswald } from '../components/sharedComponents/Navbar/navBar'
+import { oswald } from '../fonts'
 
 interface PlanSummaryProps {
   exercises: number

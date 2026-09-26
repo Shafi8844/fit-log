@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Logo from '../../../../../public/logo.png'
-import { oswald } from '../Navbar/navBar'
+import { oswald } from '@/app/fonts'
 
 const Footer = () => (
   <footer className="border-t border-(--border) bg-(--background)">

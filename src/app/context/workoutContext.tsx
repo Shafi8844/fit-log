@@ -76,9 +76,9 @@ const WorkoutProvider = ({children}:{children:React.ReactNode}) => {
         todaysPlan,
         setTodaysPlan,
         savedPlan,
-    setSavedPlan,
-    isHydrated,
-    notify,
+        setSavedPlan,
+        isHydrated,
+        notify,
     }
   return (
   <WorkoutContext.Provider value={sharedData}>

@@ -1,4 +1,4 @@
-import { oswald } from './components/sharedComponents/Navbar/navBar'
+import { oswald } from './fonts'
 
 const Loading = () => (
   <main className="mx-auto flex min-h-[55vh] w-full max-w-6xl flex-col items-center justify-center gap-4 px-4 text-center">

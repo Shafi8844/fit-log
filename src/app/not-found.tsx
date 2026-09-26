@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { oswald } from './components/sharedComponents/Navbar/navBar'
+import { oswald } from './fonts'
 
 const NotFound = () => (
   <main className="mx-auto flex min-h-[60vh] w-full max-w-6xl flex-col items-center justify-center px-4 text-center">

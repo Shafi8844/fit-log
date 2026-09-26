@@ -3,12 +3,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../../../../public/logo.png'
-import { Oswald } from 'next/font/google'
 import MiddleButton from './middleButton'
 import { useContext } from 'react'
 import { WorkoutContext } from '@/app/context/workoutContext'
-
-export const oswald = Oswald({ subsets: ['latin'] })
+import { oswald } from '@/app/fonts'
 
 const NavBar = () => {
   const { todaysPlan, savedPlan } = useContext(WorkoutContext)

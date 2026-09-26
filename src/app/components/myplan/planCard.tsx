@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { WorkoutType } from '../../types/workoutType'
-import { oswald } from '../sharedComponents/Navbar/navBar'
+import { oswald } from '@/app/fonts'
 
 interface PlanCardProps {
 	workout: WorkoutType
