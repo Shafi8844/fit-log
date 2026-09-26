@@ -1,48 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 # FitLog
 
-FitLog is a responsive workout library and daily training planner. Browse lifts, review their equipment and instructions, then add up to five workouts to today's plan or save them for later.
+A workout library and daily training planner for building a practical routine. Explore exercises, review their details, and organize workouts into today's plan or a saved list.
 
-## Technologies
+## Technologies Used
 
-- Next.js App Router and React
-- TypeScript
-- Tailwind CSS 4 and DaisyUI
-- Workout data from the FitLog API
-- Browser localStorage for plan persistence
+- [Next.js](https://nextjs.org/) App Router
+- [React](https://react.dev/) and [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) 4 and [DaisyUI](https://daisyui.com/) 5
+- FitLog API for workout data
+- Browser `localStorage` for saved plans
 
-## Features
+## Key Features
 
-- Responsive workout library with muscle-group tags and workout statistics
-- Workout detail pages with specifications and numbered instructions
-- Today's Plan and Saved lists with live navigation counters
-- Five-workout daily cap, duplicate prevention, and Mark as Done actions
-- Duration, calories, and rating sorting on the plan page
-- Persistent plans, action notifications, loading states, and a custom 404 page
+1. Browse a responsive workout library with muscle-group tags.
+2. View exercise specifications and step-by-step instructions.
+3. Add exercises to Today's Plan, with a five-workout daily limit.
+4. Save workouts for later and mark planned workouts as done.
+5. Sort planned workouts by duration, calories, or rating; plan data persists in the browser.
 
-## Run locally
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Run `npm run lint` and `npm run build` before deployment.
+Open [http://localhost:3000](http://localhost:3000).
+
+Before deploying, verify the project with:
+
+```bash
+npm run lint
+npm run build
+```
