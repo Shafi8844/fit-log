@@ -18,7 +18,7 @@ const WorkoutPage = async ({ params }: WorkoutPageProps) => {
 
    let response: Response
    try {
-      response = await fetch(`https://api.abcz.workers.dev/api/fitlog/${id}`)
+      response = await fetch(`https://api.api-store.workers.dev/api/fitlog/${id}`)
    } catch {
       notFound()
    }

@@ -4,7 +4,7 @@ import WorkoutCard from "./workoutCard";
 
 
 const workoutsPromise=async():Promise<WorkoutType[]>=>{
-    const res = await fetch('https://api.abcz.workers.dev/api/fitlog');
+    const res = await fetch('https://api.api-store.workers.dev/api/fitlog');
         if (!res.ok) throw new Error('Workout library request failed')
      return await res.json();
 }
