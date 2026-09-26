@@ -2,12 +2,10 @@ import React from 'react'
 interface MuscleProps{
      muscleGroups:string
 }
-const muscle = ( {muscleGroups}:MuscleProps) => {
+const Muscle = ( {muscleGroups}:MuscleProps) => {
   return (
-    <div>
-        <div className="badge bg-[var(--themecolor)] rounded-2xl text-black">{muscleGroups}</div>
-    </div>
+    <span className="inline-flex items-center rounded-full bg-(--navBarbtnback) px-2.5 py-1 text-xs font-medium uppercase text-(--themecolor)">{muscleGroups}</span>
   )
 }
 
-export default muscle
+export default Muscle
