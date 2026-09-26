@@ -5,17 +5,14 @@ interface middleBtnProps{
     href:string;
     name:string;
 }
-const middleButton = ({href,name}:middleBtnProps) => {
+const MiddleButton = ({href,name}:middleBtnProps) => {
         const pathName=usePathname();
-        let isActive=false;
-        if(pathName===href){
-            isActive=true
-        }
+        const isActive = href === '/' ? pathName === '/' : pathName === href || pathName.startsWith(`${href}/`)
   return (
     <Link href={href}>
-        <button className={`${isActive? "bg-[var(--navBarbtnback)] text-[var(--themecolor)] w-24 rounded-2xl p-2 font-semibold":" "}`}>{name}</button>
+        <span aria-current={isActive ? 'page' : undefined} className={`inline-flex min-h-10 items-center justify-center rounded-full px-5 text-sm transition-colors ${isActive ? 'bg-[var(--navBarbtnback)] font-semibold text-[var(--themecolor)]' : 'text-[var(--muted)] hover:text-white'}`}>{name}</span>
     </Link>
   )
 }
 
-export default middleButton
+export default MiddleButton
